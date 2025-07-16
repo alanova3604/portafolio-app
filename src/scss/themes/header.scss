@@ -1,0 +1,16 @@
+header{
+    padding: 29px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    .social-media{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 40px;
+        a{
+            color: #A9A9A9;
+        }
+    }
+}
