@@ -24,7 +24,7 @@ function Home() {
 
 
     return (
-        <div className="index-desktop d-none d-lg-block">
+        <div className="index-desktop">
             <section className="home-section">
                 <div className="home-section-title">
                     <div className="hello-text">¡Hola!</div>
@@ -41,7 +41,7 @@ function Home() {
             <section id="aboutMe" className="about-me-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-5">
+                        <div className="col-lg-5">
                             <div className="enlaces-area">
                                 <div className="row">
                                     <div className="col-12">
@@ -53,7 +53,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-7">
+                        <div className="col-lg-7">
                             <div className="about-me-text">
                                 <div className="title">Desarrollador
                                     Front End
