@@ -167,8 +167,7 @@ main {
   box-shadow: -1px -9px 30px 0px rgba(255, 255, 255, 0.1);
   transform: translateY(100%);
   opacity: .8;
-  pointer-events: none;
-  overflow-x: scroll;
+  overflow-y: scroll;
 
   .title{
     display: flex;

@@ -20,18 +20,16 @@ function Home() {
         setIsActive(!isActive);
     };
 
-    console.log(proyectos)
-
 
     return (
         <div className="index-desktop">
             <section className="home-section">
                 <div className="home-section-title">
-                    <div className="hello-text">¡Hola!</div>
+                    <div className="hello-text">¡Hi!</div>
                     <div className="name">
-                        Soy Alan Valdez
+                        I'm Alan Valdez
                     </div>
-                    <h1>Desarrollador Front End</h1>
+                    <h1>Front-End Developer and UX Designer</h1>
                 </div>
                 <a href="#aboutMe" className="down-button">
                     <Icon icon="line-md:chevron-down-circle" width="80" height="80"/>
@@ -47,7 +45,7 @@ function Home() {
                                     <div className="col-12">
                                         <div className="m-auto enlace enlace-proyectos" onClick={handleClick}>
                                             <Icon icon="solar:folder-line-duotone" className="icono"/>
-                                            <span>Proyectos</span>
+                                            <span>Projects</span>
                                         </div>
                                     </div>
                                 </div>
@@ -55,19 +53,16 @@ function Home() {
                         </div>
                         <div className="col-lg-7">
                             <div className="about-me-text">
-                                <div className="title">Desarrollador
-                                    Front End
+                                <div className="title">About Me
                                 </div>
-                                <div className="text">Soy desarrollador
-                                    Front-End con experiencia en diseño de interfaces, implementación de componentes
-                                    visuales y desarrollo web responsivo.
-                                    Combino creatividad con código para construir productos que no solo se ven bien,
-                                    sino que también funcionan de forma fluida.
-                                    Mi enfoque está en HTML, CSS, JavaScript y tecnologías modernas como React y SCSS.
+                                <div className="text">
+                                    I am a Front-End developer with experience in interface design, visual component implementation, and responsive web development.
+                                    I combine creativity with code to build products that not only look good but also work smoothly.
+                                    My focus is on HTML, CSS, JavaScript, and modern technologies such as React and SCSS.
                                 </div>
                                 <div className="about-me-words">
-                                    <span>25 años</span>
-                                    <span>Lic. Diseño Animación y Arte digital</span>
+                                    <span>25 years old</span>
+                                    <span>Digital Design and Animation</span>
                                     <span>Nubir Estudio Digital</span>
                                 </div>
                             </div>
@@ -81,7 +76,7 @@ function Home() {
             <section id="proyectos" className={`project-section ${isActive ? 'active' : ''}`}>
                 <div className="container">
                     <div className="title">
-                        <span>Proyectos</span>
+                        <span>Projects</span>
                         <div className="close" onClick={handleClick}>
                             <Icon icon="ic:round-close" width="4em" height="4em"/>
                         </div>
@@ -121,6 +116,8 @@ function Home() {
                 </div>
             </section>
         </div>
+
+
 
     );
 }
